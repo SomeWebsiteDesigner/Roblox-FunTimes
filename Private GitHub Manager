@@ -1,0 +1,15 @@
+-- <a data-permalink-href="/SomeWebsiteDesigner/Roblox-FunTimes/raw/528071effb14094bace03f7e82b292bb8f81fb41/FluxUI.lua"
+-- href="/SomeWebsiteDesigner/Roblox-FunTimes/raw/main/FluxUI.lua"
+-- id="raw-url"
+-- data-view-component="true"
+-- class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">
+-- Raw
+
+local Response = syn.request({
+    Url = "https://github.com/SomeWebsiteDesigner/Roblox-FunTimes/raw/b47d49069b681295225d7d13c3f422ce9c643680/FluxUI.lua",
+    Method = "GET"
+})
+
+print(Response.Body)
+-- TODO user synapse to check the element of the Raw button for github.
+-- before anything, use syn.request to grab the permalink, just to be safe.
