@@ -90,4 +90,4 @@ end
 function ConnectionGroup.GetGroupByName(name)
 	return ConnectionGroup.Groups[name]
 end
-return ConnectionGroup
+return ConnectionGroup.__index
