@@ -4,7 +4,7 @@ ConnectionGroup.Groups = {}
 
 ConnectionGroup.__index = ConnectionGroup
 
-function ConnectionGroup.Create(Name, ExisitingConnections)
+function ConnectionGroup.__index:ConnectionGroup.Create(Name, ExisitingConnections)
 	local Proxy = {}
 	Proxy.Connections = {}
 
