@@ -1,3 +1,4 @@
+local function Connector()
 local ConnectionGroup = {}
 
 ConnectionGroup.Groups = {}
@@ -90,4 +91,5 @@ end
 function ConnectionGroup.GetGroupByName(name)
 	return ConnectionGroup.Groups[name]
 end
-return ConnectionGroup.__index
+	end
+return Connector
