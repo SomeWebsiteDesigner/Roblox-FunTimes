@@ -4,7 +4,6 @@ ConnectionGroup.Groups = {}
 
 ConnectionGroup.__index = ConnectionGroup
 
-local function Connector()
 function ConnectionGroup.Create(Name, ExisitingConnections)
 	local Proxy = {}
 	Proxy.Connections = {}
@@ -91,5 +90,3 @@ end
 function ConnectionGroup.GetGroupByName(name)
 	return ConnectionGroup.Groups[name]
 end
-	end
-return Connector
